@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "unit:test": "env NODE_ENV=test mocha tests/unit/* --recursive -t 30000 --exit"
+    "unit:test": "env NODE_ENV=test mocha tests/unit/* --recursive -t 30000 --exit",
+    "filter-function": "node ./filter-function.js"
   },
   "engine": {
     "node": ">=10.5"
