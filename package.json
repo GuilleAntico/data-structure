@@ -1,0 +1,22 @@
+{
+  "name": "data-structure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engine": {
+    "node": ">=10.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuilleAntico/data-structure.git"
+  },
+  "author": "Carlos Guillermo Antico",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuilleAntico/data-structure/issues"
+  },
+  "homepage": "https://github.com/GuilleAntico/data-structure#readme"
+}
