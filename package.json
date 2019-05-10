@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "unit:test": "env NODE_ENV=test mocha tests/unit/* --recursive -t 30000 --exit"
   },
   "engine": {
     "node": ">=10.5"
@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/GuilleAntico/data-structure/issues"
   },
-  "homepage": "https://github.com/GuilleAntico/data-structure#readme"
+  "homepage": "https://github.com/GuilleAntico/data-structure#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "sinon": "^7.3.2"
+  }
 }
